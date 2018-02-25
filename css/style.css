@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  
+  font-family: lato;
+  font-size: 16px;
+  font-weight: 300;
+  -webkit-font-smoothing:antialiased;
+}
+
+
+table{
+  border:1px solid red;
+  color: #000;
+  border-collapse: collapse;
+  text-align: center;
+
+}
+td{
+  border: 2px solid green;
+  padding: 5px;
+  background-color: #dae6f3;
+}
+
+th{
+
+  background-color: #286FC2;
+  font-weight: bold;
+  color: lime;
+  border: 2px solid green;
+}
+
+/*#### Contact form #####*/
+form{
+  width: 40%;
+  margin:20px  auto;
+  box-sizing: border-box;
+}
+
+legend{
+  font-size: 1.5em;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+}
+
+
+label{
+  width: 100px;
+  float: left;
+}
+
+input {
+    margin: 5px;
+    width: 200px;
+}
+
+textarea{
+  margin-top: 30px;
+
+}
+
+.submit, .reset{
+    font-size: 1.1em;
+    background-color: #286FC2;
+    color: #fff;
+    margin: 20px 0px 20px 20px;
+    padding: 10px;
+    border: none;
+    width: 100px;
+}
+
+.submit:hover, .reset:hover{
+
+  background-color: #498AF2;
+  cursor: pointer;
+}
+
+.submit:hover{
+
+  background-color: #498AF2;
+  cursor: pointer;
+}
+.reset:hover{
+
+  background-color: #498AF2;
+  cursor: pointer;
+}

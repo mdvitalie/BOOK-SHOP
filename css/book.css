@@ -1,0 +1,369 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+article,aside,footer{
+  height: 50px;
+}
+#wrapper{
+  width: 1200px;
+  max-width: 1280px;
+  margin: auto;
+  background-color: #999;
+  /*position: relative;*/
+  text-align: center;
+}
+
+nav{
+  border-bottom: 2px solid #fff;
+  background-color: #000;
+  width: 100%;
+  color:#fff;
+}
+
+nav ul li{
+  list-style-type: none;
+    display: inline-block;
+    width: 15%;
+    border-bottom: 1px solid #333;
+    background-color: rgb(56, 2, 79);
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+nav a:hover{
+  display: block;
+  color: yellow;
+
+}
+
+nav li a,.logo a{
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+}
+
+#togglemenu{
+  font-size: 36px;
+line-height: 44px;
+color: #fff;
+background-color: #38024f;
+width: 44px;
+text-align: center;
+border: 5px;
+margin: 2px;
+border: 1px solid #fff;
+border-radius: 5px;
+cursor: pointer;
+  display: none;
+}
+
+
+
+
+header{
+  width: 100%;
+  background-color: #38024f;
+  color: #fff;
+  background-image: url(https://i0.wp.com/rbms.info/wp-content/uploads/2014/05/special-collections-books-700x300.jpg?fit=700%2C300);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+header .logo {
+  float: left;
+  background-color: red;
+  border: 2px solid #fff;
+  margin: 30px 0 30px 30px;
+}
+
+header .logo .fa-book{
+  font-size: 3.5rem;
+  font-weight: bold;
+  padding: 20px;
+}
+
+header img{
+  float: left;
+}
+
+.clearAll {
+  clear:both;
+  height: 0px;
+}
+
+
+
+.logo img{
+  max-width: 100%;
+  width: 100%;
+}
+article{
+  width: 1000px;
+  background-color: purple;
+  color: #fff;
+  float: left;
+}
+
+aside{
+  width: 170px;
+  background-color: lime;
+  float: right;
+}
+footer{
+  width: 100%;
+  clear: both;
+}
+
+footer .row{
+  background-color: #000;
+  margin: 0px;
+}
+/*############ Tablet ###############*/
+@media screen and (max-width:800px){
+
+  nav{
+    line-height: 30px;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    /*margin-top: -30px;*/
+    padding: 0;
+  }
+
+  nav ul li{
+    list-style-type: none;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #333;
+    background-color: rgb(56, 2, 79);
+    text-transform: uppercase;
+  }
+
+  #togglemenu{
+    display:block ;
+    float: right;
+  }
+
+  #mainmenu{
+    position: absolute;
+    top: 0px;
+    z-index: 1000;
+    background-color: rgb(157, 142, 171);
+    display: none;
+    margin-top: 50px;
+    float: right;
+    width: 100%;
+  }
+
+
+  header{
+      margin: 49px 0 0 0;
+      width: 100%;
+      background-color: #078b98;
+      color: #fff;
+    }
+
+  #wrapper{
+    background-color: #999;
+    width:100%;
+
+
+  }
+
+
+  article{
+    background-color: lightblue;
+    width: 100%;
+
+  }
+
+  /*aside{
+    display: none;
+  }*/
+  footer{
+    width: 100%;
+    color: #fff;
+  }
+
+}
+/*############ End of Tablet ###############*/
+
+
+/*############ Mobile ###############*/
+@media screen and (max-width:600px){
+
+  #wrapper{
+    background-color: #999;
+    width:100%;
+
+  }
+nav{
+  line-height: 30px;
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  /*margin-top: -30px;*/
+  padding: 0;
+}
+
+nav ul li{
+  list-style-type: none;
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #333;
+  background-color: rgb(56, 2, 79);
+  text-transform: uppercase;
+}
+
+  #mainmenu{
+    display: none;
+    width: 100%;
+    margin-top: 50px;
+  }
+
+header{
+
+    width: 100%;
+
+    background-color: orange;
+    color: #fff;
+  }
+
+  header .logo {
+    float: left;
+    background-color: red;
+    border: 2px solid #fff;
+    margin: 5px auto;
+
+  }
+
+  article{
+    background-color: lightblue;
+    width: 100%;
+
+  }
+
+  aside{
+    display: none;
+  }
+  footer{
+    width: 100%;
+    color: #fff;
+  }
+
+
+}
+
+
+
+
+/*############ End of Mobile ###############*/
+
+/*#################Bootstrap Stile########################*/
+
+
+
+.container{
+  width: 80%;
+  margin: auto;
+  clear: both;
+}
+
+/*.topSellers h1,h2{
+  font-family: "freight-text-pro",serif;
+  text-align: center;
+  margin:  40px 0;
+}*/
+
+.topSellImg,.newReleasesImg,.audioBooksImg{
+max-width: 100%;
+width: 100%;
+}
+
+
+
+hr{
+  border: 2px dotted #ccc;
+  margin: 50px 0;
+}
+
+/*.box{
+  background-color: red;
+  /*text-align: center;
+  float: left;*/
+  /*margin: 5px;*/
+  /*background-image: url(https://typeset-beta.imgix.net/rehost%2F2016%2F11%2F10%2F36d09226-fca0-4fd4-a0e4-38279c4d5c01.jpg);*/
+  /*background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;*/
+
+
+/*}*/
+
+.box:hover{
+    box-shadow:  1px 3px 10px #000;
+}
+
+.audioBG {
+  background-color: blanchedalmond;
+}
+
+.newRelBG {
+  background-color: beige;
+}
+
+
+footer{
+  width: 100%;
+  background-color: #020108;
+  color: #fff;
+  clear: both;
+}
+
+.fContainerContent {
+  float: left;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 30px;
+  border-top: 5px solid #b5c52d;
+}
+
+.footerContent{
+padding: 20px 0;
+background-color: #333;
+}
+/*.footerContent {
+  width: 45%;
+  background-color: orange;
+  float: left;
+}*/
+  .fContainerContent h4{
+    text-decoration: underline;
+    margin-bottom: 5px;
+  }
+
+  /*.asideAdds{
+    background-image: url("../img/adds.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid red;
+  }*/
+
+.fContainerContent p,.footerContent span,  .fContainerContent h4,.footerContent{
+  margin-top: 10px;
+  color: #888585;
+  text-align: center;
+}
+.clearBoth {
+  clear: both;
+  width: 100%;
+  font-size: 1px;
+  line-height: 1px;
+}
+
+/*#################Bootstrap Stile########################*/

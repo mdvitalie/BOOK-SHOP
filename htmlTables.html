@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>table</title>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+
+<h1>HTML Table</h1>
+<h2>basic table</h2>
+<!--Table -->
+<!-- <table style="border: 1px solid blue"> -->
+  <table>
+  <tr>
+    <td>Monday</td>
+    <td>HTML5 Template</td>
+    <td>Created template</td>
+  </tr>
+  <tr>
+    <td>Tuesday</td>
+    <td>HTML5 Elements</td>
+    <td>Created a HTML with a proposal for our webdesign project.</td>
+  </tr>
+</table>
+
+
+<h2>basic table with Header</h2>
+<!--Table -->
+<!-- <table style="border: 1px solid blue"> -->
+  <table>
+    <th>DAY</th>
+    <th>SUBJECT</th>
+    <th>EXERCISE</th>
+  <tr>
+    <td>Monday</td>
+    <td>HTML5 Template</td>
+    <td>Created template</td>
+  </tr>
+  <tr>
+    <td>Tuesday</td>
+    <td>HTML5 Elements</td>
+    <td>Created a HTML with a proposal for our webdesign project.</td>
+  </tr>
+</table>
+
+<h2>Table with &lt;head>, &lt;tbody>, and &lt;tfooter>,</h2>
+<!--Table -->
+<!-- <table style="border: 1px solid blue"> -->
+  <table>
+    <thead>
+    <th>DAY</th>
+    <th>SUBJECT</th>
+    <th>EXERCISE</th>
+  </thead>
+<tbody>
+  <tr>
+    <td>Monday</td>
+    <td>HTML5 Template</td>
+    <td>Created template</td>
+  </tr>
+  <tr>
+    <td>Tuesday</td>
+    <td>HTML5 Elements</td>
+    <td>Created a HTML with a proposal for our webdesign project.</td>
+  </tr>
+  </tbody>
+
+  <tfoot>
+  <tr>
+      <td>DAY (FOOTER)</td>
+      <td>SUBJECT (FOOTER)</td>
+      <td>EXERCISE (FOOTER)</td>
+    </tr>
+  </tfoot>
+</table>
+<hr>
+<!-- ########### Contact form ########### -->
+<form action="" method="post">
+  <div class="contact">
+    <fieldset>
+      <legend>Contact form</legend>
+      <label for="fName">*First name:</label>
+      <input type="text" id="fName" maxlength="20" name="fName" autofocus required><br>
+
+      <label for="email">*Email:</label>
+      <input type="text" id="email" required><br>
+
+      <label for="number">Phone:</label>
+      <input type="text" name="number" step="10"min="10" max="12"><br>
+    <div class="txtArea">
+    <textarea name="name"id="textarea" placeholder="Type your message here" rows="8" cols="80" required></textarea>
+    </div>
+    <input type="submit" class="submit" value="Submit">
+    <input type="reset" class="reset" value="Reset">
+    </fieldset>
+
+  </div>
+</form>
+<!-- ########### End of Contact form ########### -->
+  <form action="">
+    <fildset>
+      <legend></legend>
+      <label for=""></label>
+      <input type="text">
+      <input type="text">
+      <input type="text">
+    </fildset>
+  </form>
+
+</body>
+</html>
